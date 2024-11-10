@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3969406-529f-4c28-b3fc-ed75375acf0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exception/NotEmptyListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/FillListException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/linked/LinkedListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/linked/LinkedListTimeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/CreatorTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -141,11 +142,29 @@
       <option name="project" value="LOCAL" />
       <updated>1731250852028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pre 2">
+      <option name="closed" value="true" />
+      <created>1731253704910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731253704910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pre 3">
+      <option name="closed" value="true" />
+      <created>1731258862273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731258862273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pre" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre" />
+    <MESSAGE value="pre 2" />
+    <MESSAGE value="pre 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre 3" />
   </component>
 </project>
