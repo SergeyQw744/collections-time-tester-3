@@ -19,10 +19,12 @@ public class InitializerListImpl implements InitializerList<User> {
     /**
      * Метод fill(int num, List<User> users)
      * Метод принимает на вход целое число, обозначающее размер предполагаемого списка,
-     * и сам список объектов класса User, который надо заполнить. Метод возвращает
+     * и сам список объектов класса User, который надо заполнить. Сначала происходит валидация
+     * входных параметров с помощью метода validation(int num, List<User> list). Метод возвращает
      * заполненный список. Заполнение происходит в цикле по возрастанию id.
      * @param num размер заполненного списка
      * @param users заполняемый список
+     * @see #validation(int num, List list)
      */
     @Override
     public List<User> fill(int num, List<User> users) {
@@ -40,10 +42,12 @@ public class InitializerListImpl implements InitializerList<User> {
     /**
      * Метод fillInReverseOrder(int num, List<User> users)
      * Метод принимает на вход целое число, обозначающее размер предполагаемого списка,
-     * и сам список объектов класса User, который надо заполнить. Метод возвращает
+     * и сам список объектов класса User, который надо заполнить. Сначала происходит валидация
+     * входных параметров с помощью метода validation(int num, List<User> list). Метод возвращает
      * заполненный список. Заполнение происходит в цикле по убыванию id.
      * @param num размер заполненного списка
      * @param users заполняемый список
+     * @see #validation(int num, List list)
      */
     @Override
     public List<User> fillInReverseOrder(int num, List<User> users) {
@@ -58,6 +62,15 @@ public class InitializerListImpl implements InitializerList<User> {
         }
     }
 
+    /**
+     * Метод validation(int num, List<User> list)
+     * Метод принимает на вход целое число, обозначающее размер предполагаемого списка,
+     * и сам список объектов класса User, который надо заполнить. Сначала метод проверяет
+     * число num, чтобы оно не было отрицательным, а потом происходит проверка списка,
+     * чтобы он был не заполнен.
+     * @param num размер заполненного списка
+     * @param list заполняемый список
+     */
     private String validation(int num, List<User> list){
         StringBuilder errorMessage = new StringBuilder();
         if (num < 0){
