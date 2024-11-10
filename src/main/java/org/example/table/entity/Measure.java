@@ -41,4 +41,12 @@ public class Measure {
     public void setOperation(OperationEnum operation) {
         this.operation = operation;
     }
+
+    @Override
+    public String toString() {
+        return
+                "                      " + operation +
+                "                      " + arrayOperationTime +
+                "                      " + linkedOperationTime;
+    }
 }

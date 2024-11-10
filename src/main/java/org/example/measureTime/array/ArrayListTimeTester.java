@@ -61,7 +61,7 @@ public class ArrayListTimeTester implements TimeTester {
     public long getTimeGetUsers(){
         users = initializer.fill(size, users);
         Date start = new Date();
-        for (int i = 0; i < 10000; i++){
+        for (int i = 0; i < size; i++){
             User user = users.get(i);
         }
         Date end = new Date();
@@ -82,7 +82,7 @@ public class ArrayListTimeTester implements TimeTester {
     public long getTimeDeleteUsers(){
         users = initializer.fill(size, users);
         Date start = new Date();
-        for (int i = 0; i < 10000; i++){
+        for (int i = 0; i < size; i++){
             users.remove(0);
         }
         Date end = new Date();
@@ -103,7 +103,7 @@ public class ArrayListTimeTester implements TimeTester {
     public long getTimeSetUsers(){
         users = initializer.fill(size, users);
         Date start = new Date();
-        for (int i = 0; i < 10000; i++){
+        for (int i = 0; i < size; i++){
             users.set(i, new User(i, "second-username" + i, "second-password" + i));
         }
         Date end = new Date();
@@ -124,7 +124,7 @@ public class ArrayListTimeTester implements TimeTester {
     public long getTimeContainsUsers() {
         users = initializer.fill(size, users);
         Date start = new Date();
-        for (int i = 0; i < 10000; i++){
+        for (int i = 0; i < size; i++){
             users.contains(new User(i, "user"+ i, "password" + i));
         }
         Date end = new Date();

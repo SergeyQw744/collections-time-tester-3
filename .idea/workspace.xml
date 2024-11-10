@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3969406-529f-4c28-b3fc-ed75375acf0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/CreatorTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.InitializerTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="collections-time-tester-3" />
@@ -99,29 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitializerTest.testFill_returnsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collections-time-tester-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.InitializerTest" />
-      <option name="METHOD_NAME" value="testFill_returnsList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InitializerTest" />
         <item itemvalue="Application.App2" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.InitializerTest" />
         <item itemvalue="JUnit.InitializerTest.testFillInReverseOrder_returnsList" />
-        <item itemvalue="JUnit.InitializerTest.testFill_returnsList" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731258862273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pre 3">
+      <option name="closed" value="true" />
+      <created>1731261522919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731261522919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

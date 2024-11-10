@@ -5,5 +5,5 @@ package org.example.table.entity;
  * В это перечисление входят все методы, для которых происходит замер времени.
  */
 public enum OperationEnum {
-    ADD, GET, DELETE, SET, CONTAINS, SORT
+    ADD, GET, DEL, SET, CONT, SORT
 }
