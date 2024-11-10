@@ -42,6 +42,7 @@ public class LinkedListTimeTester implements TimeTester {
         Date start = new Date();
         initializer.fill(size, users);
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 
@@ -62,6 +63,7 @@ public class LinkedListTimeTester implements TimeTester {
             User user = users.get(i);
         }
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 
@@ -82,6 +84,7 @@ public class LinkedListTimeTester implements TimeTester {
             users.remove(0);
         }
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 
@@ -102,6 +105,7 @@ public class LinkedListTimeTester implements TimeTester {
             users.set(i, new User(i, "second-username" + i, "second-password" + i));
         }
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 
@@ -122,6 +126,7 @@ public class LinkedListTimeTester implements TimeTester {
             users.contains(new User(i, "user"+ i, "password" + i));
         }
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 
@@ -140,6 +145,7 @@ public class LinkedListTimeTester implements TimeTester {
         Date start = new Date();
         Collections.sort(users);
         Date end = new Date();
+        users.clear();
         return end.getTime() - start.getTime();
     }
 }

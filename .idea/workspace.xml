@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d3969406-529f-4c28-b3fc-ed75375acf0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exception/NotEmptyListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/NotEmptyListException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exception/NotEmptyListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/FillListException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/init/InitializerListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/TimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/TimeTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/linked/LinkedListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/linked/LinkedListTimeTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InitializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InitializerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.InitializerTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="collections-time-tester-3" />
@@ -123,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.InitializerTest" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.InitializerTest.testFillInReverseOrder_returnsList" />
         <item itemvalue="JUnit.InitializerTest.testFill_returnsList" />
-        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731057274748</updated>
     </task>
+    <task id="LOCAL-00001" summary="pre">
+      <option name="closed" value="true" />
+      <created>1731250852028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250852028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pre" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package org.example.init;
 
 import org.example.entity.User;
+import org.example.exception.FillListException;
 
 import java.util.List;
 
@@ -25,11 +26,16 @@ public class InitializerListImpl implements InitializerList<User> {
      */
     @Override
     public List<User> fill(int num, List<User> users) {
-        for (int i = 0; i < num; i++){
-            int value = i+1;
-            users.add(new User(i + 1, "user"+ value, "password" + value));
+        String message = validation(num, users);
+        if (message.isBlank()){
+            for (int i = 0; i < num; i++){
+                int value = i+1;
+                users.add(new User(i + 1, "user"+ value, "password" + value));
+            }
+            return users;
+        } else {
+            throw new FillListException(message);
         }
-        return users;
     }
     /**
      * Метод fillInReverseOrder(int num, List<User> users)
@@ -41,9 +47,25 @@ public class InitializerListImpl implements InitializerList<User> {
      */
     @Override
     public List<User> fillInReverseOrder(int num, List<User> users) {
-        for (int i = num; i > 0; i--){
-            users.add(new User(i, "user"+ i, "password" + i));
+        String message = validation(num, users);
+        if (message.isBlank()){
+            for (int i = num; i > 0; i--){
+                users.add(new User(i, "user"+ i, "password" + i));
+            }
+            return users;
+        } else {
+            throw new FillListException(message);
         }
-        return users;
+    }
+
+    private String validation(int num, List<User> list){
+        StringBuilder errorMessage = new StringBuilder();
+        if (num < 0){
+            errorMessage.append("Размер списка не может быть отрицательным! ");
+        }
+        if (!list.isEmpty()){
+            errorMessage.append("Передаваемый список должен быть пуст!");
+        }
+        return errorMessage.toString();
     }
 }
