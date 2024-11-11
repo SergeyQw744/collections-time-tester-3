@@ -1,4 +1,4 @@
-package org.example;
+package org.example.initializer;
 
 import org.example.entity.User;
 import org.example.init.InitializerListImpl;

@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3969406-529f-4c28-b3fc-ed75375acf0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tester/ArrayListTimeTesterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tester/LinkedListTimeTesterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/measureTime/array/ArrayListTimeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/creator/CreatorTableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/Measure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table/entity/OperationEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InitializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/initializer/InitializerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <module name="collections-time-tester-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.initializer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,43 +71,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTimeTesterTest.testGetTimeContainsUsers_returnedTimeInMillis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collections-time-tester-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.initializer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.InitializerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InitializerTest.testFillInReverseOrder_returnsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collections-time-tester-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.InitializerTest" />
-      <option name="METHOD_NAME" value="testFillInReverseOrder_returnsList" />
+      <option name="PACKAGE_NAME" value="org.example.tester" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tester.ArrayListTimeTesterTest" />
+      <option name="METHOD_NAME" value="testGetTimeContainsUsers_returnedTimeInMillis" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTimeTesterTest.testGetTimeSortUsers_returnedTimeInMillis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections-time-tester-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.initializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tester" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tester.ArrayListTimeTesterTest" />
+      <option name="METHOD_NAME" value="testGetTimeSortUsers_returnedTimeInMillis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTimeTesterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections-time-tester-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.initializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tester" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tester.LinkedListTimeTesterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App2" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.InitializerTest" />
-        <item itemvalue="JUnit.InitializerTest.testFillInReverseOrder_returnsList" />
+        <item itemvalue="JUnit.LinkedListTimeTesterTest" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="JUnit.ArrayListTimeTesterTest.testGetTimeSortUsers_returnedTimeInMillis" />
+        <item itemvalue="JUnit.ArrayListTimeTesterTest.testGetTimeContainsUsers_returnedTimeInMillis" />
       </list>
     </recent_temporary>
   </component>
@@ -151,13 +169,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731261522919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pre 5">
+      <option name="closed" value="true" />
+      <created>1731266066338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731266066338</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pre" />
     <MESSAGE value="pre 2" />
     <MESSAGE value="pre 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre 3" />
+    <MESSAGE value="pre 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre 5" />
   </component>
 </project>

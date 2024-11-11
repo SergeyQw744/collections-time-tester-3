@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.measureTime.array.ArrayListTimeTester;
+import org.example.table.creator.CreatorTableImpl;
 
 /**
  * Hello world!
@@ -10,12 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        ArrayListTimeTester tester = new ArrayListTimeTester(10000);
-        System.out.println(tester.getTimeAddUsers());
-        System.out.println(tester.getTimeGetUsers());
-        System.out.println(tester.getTimeDeleteUsers());
-        System.out.println(tester.getTimeSetUsers());
-        System.out.println(tester.getTimeContainsUsers());
-        System.out.println(tester.getTimeSortUsers());
+        CreatorTableImpl creator = new CreatorTableImpl();
+        creator.printTable(10000);
     }
 }
